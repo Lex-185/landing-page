@@ -148,3 +148,24 @@ h1 {
     background-color: #b88c48;
     color: #191819;
 }
+
+/* Quote */
+.quote .quote-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    color: #b88c48;
+    padding: 100px 250px;
+}
+
+.quote-items p {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.quote-items .ben {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 180px;
+}
