@@ -7,7 +7,8 @@
  body {
      font-family: 'roboto',sans-serif;
      background-color: #4b484b;
-     width: 1100px;
+     width: 100vw;
+     height: 100vh;
      margin: auto;
  }
 
@@ -52,4 +53,61 @@
 .navbar .nav-logo img {
     width: 100px;
     height: auto;
+}
+
+/* Hero */
+.hero-showcase .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #dfdfdf;
+    color: #b88c48;
+    padding: 100px;
+}
+
+.hero-showcase img {
+    width: 500px;
+    height: auto;
+}
+
+.hero-showcase .hero-content .hero-title {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-showcase button {
+    display: block;
+    width: 200px;
+
+    margin-top: 10px;
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5em .5em;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+
+    background-color: #b88c48;
+    color: #dfdfdf;
+    transition: 
+        transform 250ms ease-in-out,
+        opacity 250ms linear;
+
+}
+
+.btn:hover, .btn:focus {
+    transform: scale(1.1);
+    opacity: 1;
 }
