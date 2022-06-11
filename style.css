@@ -169,3 +169,39 @@ h1 {
     text-align: right;
     padding-right: 180px;
 }
+
+/* Registration */
+.action {
+    padding: 80px;
+    background-color: #dfdfdfd4;
+}
+
+.action .action-sign {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    padding: 10px 80px;
+    
+    border-radius: 10px;
+    border-color: none;
+
+    background-color: #4a7cb7;
+    color: #e0aa59;
+}
+
+.action-sign p{
+    margin: 5px 30px 30px 50px;
+}
+
+h4 {
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.action .action-btn button {
+    color: #191819;
+    background-color: #b88c48;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 18px;
+}
