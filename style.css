@@ -116,6 +116,7 @@ h1 {
 .attributes {
     background-color: #191819;
     color: #b88c48;
+   padding-bottom: 50px;
 }
 
 .attribute-title {
@@ -125,10 +126,15 @@ h1 {
 
 .attributes .attributes-info {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.att-item {
     text-align: center;
 }
+
 
 .attributes .attributes-info img {
     width: 250px;
@@ -208,7 +214,7 @@ h4 {
 
 /* Copyright */
 .footer {
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     background-color: #191819;
     color: #b88c48;
