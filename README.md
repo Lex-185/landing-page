@@ -1,4 +1,5 @@
 # landing-page
+Live preview: https://lex-185.github.io/odin-landing-page/ 
 A fallout inspired landing page.  
 
 Nukapedia: https://fallout.fandom.com/wiki/Fallout_Wiki
