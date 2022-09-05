@@ -1,5 +1,5 @@
 # landing-page
-Live preview: https://lex-185.github.io/odin-landing-page/ 
+Live preview: https://lex-185.github.io/landing-page/
 
 A fallout inspired landing page.  
 
