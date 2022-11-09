@@ -132,7 +132,9 @@ h1 {
 .attributes .attributes-info {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
+    margin: auto;
+    width: 60%;
 }
 
 .att-item {
@@ -162,7 +164,7 @@ h1 {
 
 /* Quote */
 .quote .quote-items {
-    display: flex;
+    display: flex; align-items: center;
     flex-direction: column;
     background-color: #dfdfdf;
     color: #b88c48;
@@ -194,7 +196,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     padding: 1em 2em;
     
     border-radius: 10px;
